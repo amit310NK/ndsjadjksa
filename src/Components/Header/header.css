@@ -1,0 +1,102 @@
+.header {
+  background-color: white;
+  border-bottom: 2px solid black;
+}
+
+/* .main{
+    display: flex;
+    flex-direction: row;
+    background-color: green;
+    justify-content: space-between;
+} */
+
+.logo {
+  width: 10%;
+}
+
+.logo img {
+  width: 100%;
+  height: 100%;
+}
+.logo :hover {
+  cursor: pointer;
+}
+
+.navbar {
+  width: 80%;
+  position: relative;
+}
+
+.result {
+  position: absolute;
+  padding: 4px 4px 4px 4px;
+  border-radius: 10px;
+  border: 1px solid grey;
+
+  top: 55px;
+  left: 3%;
+}
+
+.searchList {
+  list-style: none;
+  padding: 4px 4px 4px 4px;
+  border-bottom: 2px solid grey;
+}
+
+.searchBar {
+  width: 50%;
+  /* background-color: cyan; */
+}
+
+.category {
+  width: 15%;
+  /* background-color: green; */
+}
+
+.notification {
+  width: 5%;
+  /* background-color: blue; */
+  background-color: transparent;
+  border: none;
+}
+
+.display-picture {
+  width: 4%;
+  /* background-color: yellow; */
+  border-radius: 70%;
+  overflow: hidden;
+}
+
+.display-picture img {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+}
+.display-picture :hover {
+  cursor: pointer;
+}
+
+.searchBox {
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  width: 55%;
+  font-size: 1rem;
+}
+.searchBox::after {
+  border: none;
+}
+
+.searchIcon {
+  position: absolute;
+  left: 28%;
+}
+
+.searchIcon button {
+  background-color: transparent;
+  border: none;
+}
+
+.category-btn {
+  background-color: transparent;
+  border: none;
+}

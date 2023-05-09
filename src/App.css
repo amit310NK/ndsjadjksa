@@ -1,0 +1,9 @@
+.App {
+  text-align: center;
+  padding-bottom: 20px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Listing{
+  background-color: rgba(232, 229, 229, 0.731);
+}
