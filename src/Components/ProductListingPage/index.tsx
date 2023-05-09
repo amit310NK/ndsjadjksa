@@ -1,5 +1,5 @@
 import React from "react";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import "../ProductListingPage/products.css";
 import { MdTune } from "react-icons/md";
 import { brands, Category, Price } from "../../Utils/filter";
@@ -10,7 +10,6 @@ export const ProductListing = () => {
   const [filterdData, setFilteredData] = useState(products);
   const [selectedBrands, setSelectedBrands] = useState<string[]>([]);
   const [selectedCategory, setSelectedCategory] = useState<string[]>([]);
-  const [priceRange, setPriceRange] = useState({ min: 0, max: 0 });
 
   // Brand Filter
   const handleBrandChange = (event: React.ChangeEvent<HTMLInputElement>) => {

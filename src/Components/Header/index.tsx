@@ -1,10 +1,9 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import "../Header/header.css";
 import { FiSearch } from "react-icons/fi";
 import { BsBellFill } from "react-icons/bs";
 import { GrSort } from "react-icons/gr";
 import products from "../../Utils/products.json";
-import debounce from "lodash/debounce";
 
 export const Header = () => {
   const [filterdData, setFilteredData] = useState(products);
